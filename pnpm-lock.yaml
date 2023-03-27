@@ -6,13 +6,17 @@ specifiers:
   '@types/node': ^18.14.4
   '@typescript-eslint/eslint-plugin': ^5.54.0
   '@typescript-eslint/parser': ^5.54.0
+  dotenv: ^16.0.3
   eslint: ^8.35.0
   express: ^4.18.2
+  http-status-codes: ^2.2.0
   tsx: ^3.12.3
   typescript: ^4.9.5
 
 dependencies:
+  dotenv: 16.0.3
   express: 4.18.2
+  http-status-codes: 2.2.0
 
 devDependencies:
   '@rocketseat/eslint-config': 1.2.0_ycpbpc6yetojsgtrx3mwntkhsu
@@ -882,6 +886,11 @@ packages:
       esutils: 2.0.3
     dev: true
 
+  /dotenv/16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+    engines: {node: '>=12'}
+    dev: false
+
   /ee-first/1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
     dev: false
@@ -1650,6 +1659,10 @@ packages:
       setprototypeof: 1.2.0
       statuses: 2.0.1
       toidentifier: 1.0.1
+    dev: false
+
+  /http-status-codes/2.2.0:
+    resolution: {integrity: sha512-feERVo9iWxvnejp3SEfm/+oNG517npqL2/PIA8ORjyOZjGC7TwCRQsZylciLS64i6pJ0wRYz3rkXLRwbtFa8Ng==}
     dev: false
 
   /iconv-lite/0.4.24:
